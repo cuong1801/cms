@@ -1,0 +1,29 @@
+bo thanh chuc nang ra ngoai ung ho,
+thanh tien cho ra rieng
+reset bi cuon xuong duoi 
+button search mat mau khi search
+button action phai co modal confirm
+bo button reset
+them dieu kien tim kiem trong search bang api(vi du: tim kiem ngay may tu ngay may)
+chi duoc xoa nhung don hang da roi vao trang thai da xoa ( lay status cua order- k phai cua product).
+order: khong duoc huy san pham.
+confirm di kem ly do.
+code----
+xoa import ant trong module
+import default len tren cung, {} xuong duoi
+import component, style theo tung cum
+---headerPage: su dung breadcrum
+format lai interface 
+---su dung object quan ly state cua toan bo man hinh.
+---handle error
+---goi api tach ra module service.
+(api thong nhat du lieu tra ve-)
+--- viet dung kieu ts, space giua moi fction
+---han che xu ly logic trong ham render
+----onfilter: tach ra ben ngoai
+---onHeaderCell: bo, them id va class important
+--- k access data tam bay
+--- bo orderDate dung insertTime (ngaymua)
+--- xu ly handleReset sai,
+<> ===> fragment.
+tach nghiep vu xu ly ham filter cho mobile-pc

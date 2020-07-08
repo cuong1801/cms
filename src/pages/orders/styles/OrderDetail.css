@@ -1,0 +1,71 @@
+.order-row {
+  padding-top: 20px; }
+  .order-row .order-title {
+    color: #333333;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin: 0px 0px 12px; }
+  .order-row .row-right-edit-delete {
+    float: right;
+    margin-right: 25px; }
+    .order-row .row-right-edit-delete .order-button {
+      margin: 2px; }
+
+.detail-left {
+  margin-right: 46px; }
+
+.detail-right .card-info-user {
+  margin-bottom: 6px; }
+
+.site-card-border-less-wrapper .info-product {
+  margin-bottom: 10px; }
+  .site-card-border-less-wrapper .info-product .schane-member {
+    color: black;
+    font-size: large;
+    margin-right: 5px; }
+  .site-card-border-less-wrapper .info-product .detail-product-name {
+    color: black;
+    font-size: large;
+    margin-left: 5px; }
+  .site-card-border-less-wrapper .info-product .detail-product-name:hover {
+    color: #007ff0; }
+  .site-card-border-less-wrapper .info-product .price {
+    font-size: 15px;
+    color: blue; }
+
+.site-card-border-less-wrapper .action-product .is-payment {
+  width: 102px;
+  text-align: center;
+  cursor: pointer; }
+
+.site-card-border-less-wrapper .action-product .is-payment:hover {
+  background-color: red;
+  color: white; }
+
+.site-card-border-less-wrapper .action-product .is-delivery {
+  width: 102px;
+  text-align: center;
+  cursor: pointer; }
+
+.site-card-border-less-wrapper .action-product .is-delivery:hover {
+  background-color: blue;
+  color: white; }
+
+.site-card-border-less-wrapper .action-product .cancel-order {
+  cursor: pointer; }
+
+.site-card-border-less-wrapper .action-product .cancel-order:hover {
+  background-color: orangered; }
+
+.site-card-border-less-wrapper .status-product {
+  margin-right: 5px; }
+
+.site-card-border-less-wrapper .cancel {
+  color: black;
+  font-size: 15px; }
+
+.site-card-border-less-wrapper .site-badge-count-99 .ant-badge-count {
+  background-color: #fff;
+  color: #999;
+  box-shadow: 0 0 0 1px #d9d9d9 inset; }

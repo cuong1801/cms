@@ -1,0 +1,117 @@
+// const clearFilters = () => {
+//     .setState({ filteredInfo: null })
+// }
+// const data = [
+//     {
+//         _id: '5ef5a495224cb8ba206f7299',
+//         customer: {
+//             _id: '5ef455f5d5492e117a09e4b5',
+//             fullName: 'Nguyễn Quốc Cường',
+//         },
+//         products: [
+//             {
+//                 productId: '5ef2bd235822e0cc04d0e848',
+//                 name: 'Yến hồng loại I (100 g)',
+//                 price: 5841000,
+//                 quantity: 2,
+//                 promotionRate: 5,
+//                 donateRate: 15,
+//                 totalAmount: 11682000,
+//                 totalDonate: 1752300,
+//                 isPayment: false,
+//                 isDelivery: false,
+//                 isCancel: false,
+//                 company: {
+//                     _id: '5ef2bc199c7d4d9feb0f5c6d',
+//                     name: 'YẾN SÀO BẢO TRÂN',
+//                 },
+//             },
+//             {
+//                 productId: '5ef2bd235822e0cc04d0e849',
+//                 name: 'Yến hồng loại I (50 g)',
+//                 price: 2965500,
+//                 quantity: 1,
+//                 promotionRate: 5,
+//                 donateRate: 15,
+//                 totalAmount: 2965500,
+//                 totalDonate: 444825,
+//                 isPayment: false,
+//                 isDelivery: false,
+//                 isCancel: false,
+//                 company: {
+//                     _id: '5ef2bc199c7d4d9feb0f5c6d',
+//                     name: 'YẾN SÀO BẢO TRÂN',
+//                 },
+//             },
+//             {
+//                 productId: '5ef2bd235822e0cc04d0e848',
+//                 name: 'Yến hồng loại I (100 g)',
+//                 price: 5841000,
+//                 quantity: 2,
+//                 promotionRate: 5,
+//                 donateRate: 15,
+//                 totalAmount: 11682000,
+//                 totalDonate: 1752300,
+//                 isPayment: false,
+//                 isDelivery: false,
+//                 isCancel: true,
+//                 company: {
+//                     _id: '5ef2bc199c7d4d9feb0f5c6d',
+//                     name: 'YẾN SÀO BẢO TRÂN',
+//                 },
+//             },
+//         ],
+//         status: 'pending',
+//         totalAmount: 14647500,
+//         totalDonate: 2197125,
+//         orderDate: '2020-06-25',
+//     },
+//     {
+//         _id: '5ef5a495224cb8ba2f7299',
+//         customer: {
+//             _id: '5ef455f5d5492e117a09e4b5',
+//             fullName: 'Đặng Quốc Cường',
+//         },
+//         products: [
+//             {
+//                 productId: '5ef2bd235822e0cc04d0e848',
+//                 name: 'Yến hồng loại I (100 g)',
+//                 price: 5841000,
+//                 quantity: 2,
+//                 promotionRate: 5,
+//                 donateRate: 15,
+//                 totalAmount: 11682000,
+//                 totalDonate: 1752300,
+//                 isPayment: true,
+//                 isDelivery: false,
+//                 isCancel: false,
+//                 company: {
+//                     _id: '5ef2bc199c7d4d9feb0f5c6d',
+//                     name: 'YẾN SÀO BẢO TRÂN',
+//                 },
+//             },
+
+//             {
+//                 productId: 'sssss',
+//                 name: 'Yến hồng I (100 g)',
+//                 price: 5841000,
+//                 quantity: 2,
+//                 promotionRate: 5,
+//                 donateRate: 15,
+//                 totalAmount: 11682000,
+//                 totalDonate: 1752300,
+//                 isPayment: false,
+//                 isDelivery: false,
+//                 isCancel: true,
+//                 company: {
+//                     _id: '5ef2bc199c7d4d9feb0f5c6d',
+//                     name: 'YẾN SÀO BẢO TRÂN',
+//                 },
+//             },
+//         ],
+//         status: 'processing',
+//         totalAmount: 15151551,
+//         totalDonate: 2197125,
+//         orderDate: '2020-04-25',
+//     },
+// ]

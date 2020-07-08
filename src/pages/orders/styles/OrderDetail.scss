@@ -1,0 +1,87 @@
+.order-row {
+    padding-top: 20px;
+    .order-title {
+        color: rgb(51, 51, 51);
+        font-size: 18px;
+        text-transform: uppercase;
+        font-weight: 400;
+        margin: 0px 0px 12px;
+    }
+    .row-right-edit-delete {
+        float: right;
+        margin-right: 25px;
+        .order-button {
+            margin: 2px;
+        }
+    }
+}
+
+.detail-left {
+    margin-right: 46px;
+}
+.detail-right {
+    .card-info-user {
+        margin-bottom: 6px;
+    }
+}
+.site-card-border-less-wrapper {
+    .info-product {
+        margin-bottom: 10px;
+        .schane-member {
+            color: black;
+            font-size: large;
+            margin-right: 5px;
+        }
+        .detail-product-name {
+            color: black;
+            font-size: large;
+            margin-left: 5px;
+        }
+        .detail-product-name:hover {
+            color: rgb(0, 127, 240);
+        }
+
+        .price {
+            font-size: 15px;
+            color: blue;
+        }
+    }
+    .action-product {
+        .is-payment {
+            width: 102px;
+            text-align: center;
+            cursor: pointer;
+        }
+        .is-payment:hover {
+            background-color: red;
+            color: white;
+        }
+        .is-delivery {
+            width: 102px;
+            text-align: center;
+            cursor: pointer;
+        }
+        .is-delivery:hover {
+            background-color: blue;
+            color: white;
+        }
+        .cancel-order {
+            cursor: pointer;
+        }
+        .cancel-order:hover {
+            background-color: orangered;
+        }
+    }
+    .status-product {
+        margin-right: 5px;
+    }
+    .cancel {
+        color: black;
+        font-size: 15px;
+    }
+    .site-badge-count-99 .ant-badge-count {
+        background-color: #fff;
+        color: #999;
+        box-shadow: 0 0 0 1px #d9d9d9 inset;
+    }
+}
